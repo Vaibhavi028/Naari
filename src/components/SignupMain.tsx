@@ -15,7 +15,6 @@ const SignupMain: React.FC = () => {
 
   return (
     <div className="container">
-      <div className="navbar"></div>
       <div className="signpage">
         <img src={signupImage} alt="Signup" className="signup-image" />
         <div className="signup-container">
