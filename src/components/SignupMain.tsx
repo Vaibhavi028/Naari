@@ -13,6 +13,7 @@ const SignupMain: React.FC = () => {
 
   return (
     <div className="signup-container">
+      <h1>Sign Up</h1>
       <h2>Select Your Category</h2>
       <button onClick={() => handleCategoryChange("women")}>Naari</button>
       <button onClick={() => handleCategoryChange("external")}>
