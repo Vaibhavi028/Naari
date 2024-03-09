@@ -4,8 +4,8 @@ import Signin from "./components/Signin";
 const App = () => {
   return (
     <div>
+  {/*<SignupMain /> */}
       <SignupMain />
-      <Signin />
     </div>
   );
 };

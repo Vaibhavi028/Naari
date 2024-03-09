@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./signup.css";
+import signupImage from "./img/signupimg.png";
 
 interface SignInUser {
   phone: string;
@@ -36,32 +37,51 @@ const Signin: React.FC = () => {
   };
 
   return (
-    <div className="signup-form">
-      <h2>Sign In</h2>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="phone">Phone Number:</label>
-        <input
-          type="tel"
-          id="phone"
-          name="phone"
-          value={signInUser.phone}
-          onChange={handleChange}
-          required
-        />
-        {phoneError && <span className="error">{phoneError}</span>}
-        <br />
-        <label htmlFor="password">Password:</label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          value={signInUser.password}
-          onChange={handleChange}
-          required
-        />
-        <br />
-        <button type="submit">Sign In</button>
-      </form>
+    <div className="container">
+      <div className="navbar">
+        
+      </div>
+      <div className="signpage">
+        <img src={signupImage} alt="Signup" className="signup-image" />
+        <div className="signup-container">
+          <div className="signup-form">
+            <h2>Sign In</h2>
+            <form onSubmit={handleSubmit}>
+              <div className="lab-inp">
+              <label htmlFor="phone">Phone  </label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                value={signInUser.phone}
+                onChange={handleChange}
+                required
+              />
+              {phoneError && <span className="error">{phoneError}</span>}
+              </div>
+              <br />
+              <div className="lab-inp">
+              <label htmlFor="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+                value={signInUser.password}
+                onChange={handleChange}
+                required
+              />
+              </div>
+              <br />
+              <button type="submit">Sign In</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div className="footer">
+        
+      </div>
     </div>
   );
 };

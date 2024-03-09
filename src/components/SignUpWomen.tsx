@@ -140,6 +140,7 @@ const SignUpWomen: React.FC = () => {
       <h2>Sign Up</h2>
       {errorMessage && <p className="error-message">{errorMessage}</p>}
       <form onSubmit={handleSubmit}>
+        <div className="lab-inp">
         <label htmlFor="name">Name:</label>
         <input
           type="text"
@@ -149,68 +150,9 @@ const SignUpWomen: React.FC = () => {
           onChange={handleChange}
           required
         />
-        <br></br>
-        <label htmlFor="state">State:</label>
-        <select
-          id="state"
-          name="state"
-          value={user.state}
-          onChange={handleChange}
-          required
-        >
-          <option value="">Select State</option>
-          {indianStates.map((state) => (
-            <option key={state.value} value={state.value}>
-              {state.label}
-            </option>
-          ))}
-        </select>
-        <br></br>
-        <label htmlFor="city">City/Town/Village:</label>
-        <input
-          type="text"
-          id="city"
-          name="city"
-          value={user.city}
-          onChange={handleChange}
-          required
-        />
-        <br></br>
-        <label htmlFor="pincode">Pincode:</label>
-        <input
-          type="text"
-          id="pincode"
-          name="pincode"
-          value={user.pincode}
-          onChange={handleChange}
-          required
-        />
-        <br></br>
-        <label htmlFor="language">Language:</label>
-        <select
-          id="language"
-          name="language"
-          value={user.language}
-          onChange={handleChange}
-          required
-        >
-          <option value="">Select Language</option>
-          {indianLanguages.map((lang) => (
-            <option key={lang.value} value={lang.value}>
-              {lang.label}
-            </option>
-          ))}
-        </select>{" "}
-        <br></br>
-        <label htmlFor="image">Upload Image:</label>
-        <input
-          type="file"
-          id="image"
-          name="image"
-          onChange={handleImageChange}
-          required
-        />{" "}
-        <br></br>
+        </div>
+        <br />
+        <div className="lab-inp">
         <label htmlFor="contact">Contact Number:</label>
         <input
           type="tel"
@@ -220,7 +162,9 @@ const SignUpWomen: React.FC = () => {
           onChange={handleChange}
           required
         />{" "}
-        <br></br>
+        </div>
+        <br />
+        <div className="lab-inp">
         <label htmlFor="email">Email:</label>
         <input
           type="email"
@@ -229,7 +173,9 @@ const SignUpWomen: React.FC = () => {
           value={user.email}
           onChange={handleChange}
         />{" "}
-        <br></br>
+        </div>
+        <br />
+        <div className="lab-inp">
         <label htmlFor="password">Create Password:</label>
         <input
           type="password"
@@ -239,7 +185,9 @@ const SignUpWomen: React.FC = () => {
           onChange={handleChange}
           required
         />
-        <br></br>
+        </div>
+        <br />
+        <div className="lab-inp">
         <label htmlFor="confirmPassword">Confirm Password:</label>
         <input
           type="password"
@@ -249,6 +197,7 @@ const SignUpWomen: React.FC = () => {
           onChange={handleChange}
           required
         />
+        </div>
         <br></br>
         <button type="submit">Sign Up</button>
       </form>
