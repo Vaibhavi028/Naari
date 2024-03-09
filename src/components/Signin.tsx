@@ -11,16 +11,28 @@ const Signin: React.FC = () => {
     phone: "",
     password: ""
   });
+  const [phoneError, setPhoneError] = useState<string>("");
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
     setSignInUser({ ...signInUser, [name]: value });
+    if (name === "phone") {
+      const phoneRegex = /^\d{10}$/;
+      if (!phoneRegex.test(value)) {
+        setPhoneError("Phone number must be 10 digits");
+      } else {
+        setPhoneError("");
+      }
+    }
   };
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    if (phoneError) {
+      console.log("Invalid phone number");
+      return;
+    }
     console.log("Signin data:", signInUser);
-    // You can add your signin logic here
   };
 
   return (
@@ -36,6 +48,7 @@ const Signin: React.FC = () => {
           onChange={handleChange}
           required
         />
+        {phoneError && <span className="error">{phoneError}</span>}
         <br />
         <label htmlFor="password">Password:</label>
         <input
