@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./signup.css";
 interface User {
   name: string;
   city: string;
