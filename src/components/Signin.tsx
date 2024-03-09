@@ -77,9 +77,6 @@ const Signin: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="footer">
-        
-      </div>
     </div>
   );
 };

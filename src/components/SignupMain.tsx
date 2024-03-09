@@ -10,7 +10,7 @@ const SignupMain: React.FC = () => {
 
   const handleCategoryChange = (category: "women" | "external") => {
     setSelectedCategory(category);
-    setShowMainPage(false); // Hide the main page when a category is selected
+    setShowMainPage(false); 
   };
 
   return (
@@ -30,7 +30,6 @@ const SignupMain: React.FC = () => {
           {selectedCategory === "external" && <SignupPage />}
         </div>
       </div>
-      <div className="footer"></div>
     </div>
   );
 };

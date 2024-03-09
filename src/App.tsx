@@ -6,6 +6,7 @@ import WomanProfile from "./components/WomanProfile";
 import WomanUserProfile from "./components/WomanUserProfile";
 import WomenProfiles from "./components/WomenProfiles";
 import SignUpWomen from "./components/SignUpWomen";
+import Landingpg from "./components/landingpage";
 import Navbar from "./components/Navbar";
 const App = () => {
   return (

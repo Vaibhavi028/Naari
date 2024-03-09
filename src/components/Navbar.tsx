@@ -1,6 +1,8 @@
 import React from "react";
 import "./navbar.css";
 import Image from "./img/logo.png";
+import 'font-awesome/css/font-awesome.min.css';
+
 function Navbar() {
   return (
     <nav className="navbar">
@@ -11,7 +13,17 @@ function Navbar() {
         <ul className="nav-menu">
           <li className="nav-item">
             <a href="/profile" className="nav-links">
-              View Profile
+              About
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="/profile" className="nav-links">
+              Our Work
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="/profile" className="nav-links">
+              Language(भाषा)
             </a>
           </li>
           <li className="nav-item">
@@ -22,7 +34,7 @@ function Navbar() {
                 placeholder="Search..."
               />
               <button type="submit" className="search-button">
-                <i className="fas fa-search"></i> {/* Font Awesome icon */}
+                <i className="fa fa-search"></i> 
               </button>
             </form>
           </li>
