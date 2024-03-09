@@ -1,37 +1,52 @@
 body {
-  background: linear-gradient(
-    #f5f5f5 0%,
-    #e0e0e0 100%
-  ); /* Gradient background */
+  background:     #57211C; 
   font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
-
+.container{
+  margin-top: 50px;
+}
 .profile-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   width: 80%;
-  margin: 0 auto;
+  margin: 50px auto;
   background-color: #f5f5f5;
+  width:100%;
 }
-
+.button1{
+  background-color: black;
+  color:white;
+  height: 35px;
+  width:100%;
+  border: #666 solid 2px;
+  border-radius: 10px;
+  margin:8px auto;
+}
+.button1:hover{
+  background-color: #925454;
+  text-decoration: underline;
+}
 .profile-info {
   display: flex;
   align-items: center;
   gap: 20px;
-  background-color: #e0e0e0;
+  background-color: #57211C;
   padding: 15px;
   border-radius: 4px;
+  height:auto;
+  width: auto;
 }
 
 .profile-info img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  border: 2px solid #c0392b;
+  border: 2px solid #ccc;
+  margin: auto 20px;
 }
 
 #profile-form {
@@ -43,14 +58,16 @@ body {
 
 #profile-form label {
   font-weight: bold;
-  color: #666;
+  color: white;
+  margin: 0px;
 }
 
 #profile-form input,
 #profile-form textarea {
-  padding: 10px;
+  padding: 1px 10px;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 8px;
+  height:2em;
   outline: none;
   color: #666;
 }

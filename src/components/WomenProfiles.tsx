@@ -61,6 +61,7 @@ const WomenProfiles: React.FC = () => {
   };
 
   return (
+    <div className="container">
     <div className="women-profiles-container">
       {womenData.map((woman) => (
         <WomanProfile
@@ -75,6 +76,7 @@ const WomenProfiles: React.FC = () => {
           <WomanProfile woman={selectedWoman} onClose={handleCloseProfile} />
         </div>
       )}
+    </div>
     </div>
   );
 };

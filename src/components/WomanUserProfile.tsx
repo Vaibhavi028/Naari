@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./womanUserProfile.css";
+import Image from "./img/img2.jpg";
 interface ProfileData {
   state: string;
   city: string;
@@ -64,15 +65,11 @@ function WomanUserProfile() {
     <div className="profile-container">
       <h1>Your Profile</h1>
       <div className="profile-info">
-        <img
-          src={
-            profilePicture
-              ? URL.createObjectURL(profilePicture)
-              : "placeholder.jpg"
-          }
-          alt="Profile Picture"
-          id="profile-picture"
-        />
+      <img
+  src={Image}
+  alt="Profile Picture"
+  id="profile-picture"
+      />
         <form onSubmit={handleProfileUpdate} id="profile-form">
           <label htmlFor="profile-picture">Profile Picture:</label>
           <input
@@ -120,7 +117,7 @@ function WomanUserProfile() {
             onChange={(e) => setUser({ ...user, description: e.target.value })}
             required
           />
-          <button type="submit">Update Profile</button>
+          <button type="submit" className="button1">Update Profile</button>
         </form>
       </div>
 
