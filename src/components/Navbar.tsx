@@ -13,12 +13,12 @@ function Navbar() {
         <ul className="nav-menu">
           <li className="nav-item">
             <a href="/profile" className="nav-links">
-              About
+              Home
             </a>
           </li>
           <li className="nav-item">
             <a href="/profile" className="nav-links">
-              Our Work
+              Meet The Naari
             </a>
           </li>
           <li className="nav-item">

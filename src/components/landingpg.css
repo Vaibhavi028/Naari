@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Samarkan';
+  src: url('./img/SAMAN___.TTF') format('truetype'); 
+}
 *{
     margin: 0;padding: 0;
   }

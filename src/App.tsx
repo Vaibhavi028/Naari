@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <WomenProfiles/>
+      <SignupMain/>
     </div>
   );
 };

@@ -76,8 +76,9 @@
 }
 
 .signup-container button:hover {
-  background-color: #ec8e8e;
+  background-color: white;
   text-decoration: underline;
+  color:black;
 }
 
 .signpage{
