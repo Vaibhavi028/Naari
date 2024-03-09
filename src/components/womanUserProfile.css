@@ -1,0 +1,140 @@
+body {
+  background: linear-gradient(
+    #f5f5f5 0%,
+    #e0e0e0 100%
+  ); /* Gradient background */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #e0e0e0;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.profile-info img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #c0392b;
+}
+
+#profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+#profile-form label {
+  font-weight: bold;
+  color: #666;
+}
+
+#profile-form input,
+#profile-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  color: #666;
+}
+
+#profile-form input::placeholder {
+  color: #f0f0f0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons button {
+  background-color: #c0392b;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #a53325;
+}
+
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 15px;
+}
+
+.post {
+  width: calc(33% - 15px);
+  background-color: #fff;
+  border: 1px solid #c0392b;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.post img,
+.post video {
+  width: 100%;
+}
+
+.post-caption {
+  margin-top: 5px;
+  color: #c0392b;
+}
+
+.post-date {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+#post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+#post-form label {
+  font-weight: bold;
+  color: #666;
+}
+
+#post-form input[type="file"] {
+  padding: 5px;
+}
+
+#post-form button {
+  background-color: #c0392b;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #a53325;
+}
