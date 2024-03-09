@@ -1,11 +1,9 @@
 import React from "react";
-import SignUpWomen from "./components/SignUpWomen";
-import SignupPage from "./components/SignupPage";
+import SignupMain from "./components/SignupMain";
 const App = () => {
   return (
     <div>
-      <SignUpWomen />
-      <SignupPage />
+      <SignupMain />
     </div>
   );
 };
