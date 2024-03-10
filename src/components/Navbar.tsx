@@ -118,6 +118,7 @@ const Navbar: React.FC = () => {
       )}
       {selectedCategory === "home" && <Landingpg />}
       {selectedCategory === "meet" && <WomenProfiles />}
+      {selectedCategory === "profile" && <WomanUserProfile />}
     </nav>
   );
 };
