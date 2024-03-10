@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./womanUserProfile.css";
 import Image from "./img/img2.jpg";
+import Img1 from "./img/img4.jpeg";
+import Imag2 from "./img/img5.jpeg";
+
 interface ProfileData {
   state: string;
   city: string;
@@ -36,12 +39,12 @@ function WomanUserProfile() {
     setPosts([
       {
         caption: "This is my first post!",
-        filePath: "path/to/image.jpg",
+        filePath: Img1,
         uploadDate: new Date(),
       },
       {
         caption: "Another post!",
-        filePath: "path/to/video.mp4",
+        filePath: Img1,
         uploadDate: new Date(),
       },
     ]);

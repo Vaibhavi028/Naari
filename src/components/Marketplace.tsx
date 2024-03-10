@@ -1,5 +1,9 @@
 import React from "react";
 import "./marketplace.css";
+import Mug from "./img/mug.jpeg";
+import Scarf from "./img/scarf.jpeg";
+import Soap from "./img/soap.jpeg";
+import Jour from "./img/jour.jpeg";
 
 interface Product {
   id: number;
@@ -18,7 +22,7 @@ const products: Product[] = [
     description:
       "A beautiful mug handcrafted from natural clay. Perfect for your morning coffee or tea.",
     price: 20,
-    imageUrl: "[Image of Handmade Clay Mug]",
+    imageUrl: Mug,
     sellerName: "John Doe",
     location: "Chennai, India",
   },
@@ -28,7 +32,7 @@ const products: Product[] = [
     description:
       "A timeless leather journal for capturing your thoughts and ideas.",
     price: 35,
-    imageUrl: "[Image of Vintage Leather Journal]",
+    imageUrl: Jour,
     sellerName: "Savitri",
     location: "Ratnagiri, Maharashtra",
   },
@@ -37,7 +41,7 @@ const products: Product[] = [
     name: "Hand-knitted Scarf",
     description: "A cozy and stylish scarf, perfect for the colder months.",
     price: 18,
-    imageUrl: "[Image of Hand-knitted Scarf]",
+    imageUrl: Scarf,
     sellerName: "Mary Robbins",
     location: "Wayanad, Kerela",
   },
@@ -46,7 +50,7 @@ const products: Product[] = [
     name: "Organic Soap Bar",
     description: "A natural and nourishing soap bar for pampering your skin.",
     price: 12,
-    imageUrl: "[Image of Organic Soap Bar]",
+    imageUrl: Soap,
     sellerName: "Savitri",
     location: "Ratnagiri, Maharashtra",
   },
@@ -56,7 +60,7 @@ const products: Product[] = [
     description:
       "A beautiful mug handcrafted from natural clay. Perfect for your morning coffee or tea.",
     price: 20,
-    imageUrl: "[Image of Handmade Clay Mug]",
+    imageUrl: Mug,
     sellerName: "John Doe",
     location: "Chennai, India",
   },
@@ -66,7 +70,7 @@ const products: Product[] = [
     description:
       "A timeless leather journal for capturing your thoughts and ideas.",
     price: 35,
-    imageUrl: "[Image of Vintage Leather Journal]",
+    imageUrl: Jour,
     sellerName: "Savitri",
     location: "Ratnagiri, Maharashtra",
   },
@@ -75,7 +79,7 @@ const products: Product[] = [
     name: "Hand-knitted Scarf",
     description: "A cozy and stylish scarf, perfect for the colder months.",
     price: 18,
-    imageUrl: "[Image of Hand-knitted Scarf]",
+    imageUrl: Scarf,
     sellerName: "Mary Robbins",
     location: "Wayanad, Kerela",
   },
@@ -84,7 +88,7 @@ const products: Product[] = [
     name: "Organic Soap Bar",
     description: "A natural and nourishing soap bar for pampering your skin.",
     price: 12,
-    imageUrl: "[Image of Organic Soap Bar]",
+    imageUrl: Soap,
     sellerName: "Savitri",
     location: "Ratnagiri, Maharashtra",
   },
