@@ -13,6 +13,7 @@
 .container{
     margin-top: 69px;
     background-color: #543C32;
+    height:2000px;
 }
 
 .p1{
@@ -30,14 +31,15 @@
   color: #FFF;
 text-align: center;
 font-family: Poppins;
-font-size: 128px;
+font-size: 140px;
 font-style: normal;
 font-weight: 900;
 line-height: 1.2;
 letter-spacing: -0.05px;
+margin-top: 140px;
 }
 
-.p2{
+.p1head{
   display: flex;
     align-items: center;
     justify-items: center;
@@ -70,4 +72,8 @@ letter-spacing: -0.05px;
 .signup-button:hover {
   background: #ff6f42;
   text-decoration: underline;
+}
+
+.Layoutimg{
+  
 }
