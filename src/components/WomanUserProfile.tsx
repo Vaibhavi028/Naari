@@ -65,11 +65,7 @@ function WomanUserProfile() {
     <div className="profile-container">
       <h1>Your Profile</h1>
       <div className="profile-info">
-      <img
-  src={Image}
-  alt="Profile Picture"
-  id="profile-picture"
-      />
+        <img src={Image} alt="Profile Picture" id="profile-picture" />
         <form onSubmit={handleProfileUpdate} id="profile-form">
           <label htmlFor="profile-picture">Profile Picture:</label>
           <input
@@ -117,7 +113,9 @@ function WomanUserProfile() {
             onChange={(e) => setUser({ ...user, description: e.target.value })}
             required
           />
-          <button type="submit" className="button1">Update Profile</button>
+          <button type="submit" className="button1">
+            Update Profile
+          </button>
         </form>
       </div>
 
