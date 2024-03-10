@@ -12,7 +12,13 @@ const Landingpg: React.FC = () => {
     <div className="container">
       <div className="p1">
         <img src={Image} alt="" />
-        <div className="p1text">Helping build LIVES</div>
+        <div className="p2">
+          <div className="p1text">Helping build LIVES</div>
+          <div className="button-container">
+        <button className="signin-button">Sign In</button>
+        <button className="signup-button">Sign Up</button>
+      </div>
+        </div>
       </div>
       
     </div>
