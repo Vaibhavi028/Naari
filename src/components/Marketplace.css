@@ -1,0 +1,124 @@
+/* Import fonts if needed */
+/* @import url('https://fonts.googleapis.com/css2?family=...'); */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f5f2f0;
+}
+
+.marketplace {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #c9a07e;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Media queries for responsive adjustments */
+@media (max-width: 768px) {
+  /* Styles for screens smaller than 768px (mobile) */
+  .product-item {
+    width: 100%; /* Make products full width on mobile */
+    margin: 10px 0; /* Adjust margin for vertical stacking */
+  }
+  .product-list {
+    max-width: 100%; /* Remove max-width for full width product list */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Styles for screens between 768px and 992px (tablets) */
+  .product-item {
+    width: 50%; /* Adjust width for 2 products per row on tablets */
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* Styles for screens between 992px and 1200px (small laptops) */
+  .product-item {
+    width: 33.33%; /* Adjust width for 3 products per row on small laptops */
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Styles for screens wider than 1200px (large laptops and desktops) */
+  .product-item {
+    width: 23%; /* Maintain original width for larger screens */
+  }
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /* Maintained max-width for horizontal centering on larger screens */
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.product-item {
+  width: 23%; /* Adjusted width for 4 products in a row (default) */
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 10px;
+}
+
+.product-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.product-info p {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  color: #c9a07e;
+}
+
+.seller {
+  font-size: 0.8rem;
+  color: #999;
+}
