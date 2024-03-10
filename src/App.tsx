@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <Marketplace/>
+      <Landingpg/>
     </div>
   );
 };

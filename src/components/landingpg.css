@@ -8,5 +8,27 @@
   
 .container{
     margin-top: 50px;
+    background-color: #543C32;
 }
 
+.p1{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.p1 img{
+  margin-top: 15px;
+  width: 70%;
+}
+
+.p1text{
+  color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 128px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
