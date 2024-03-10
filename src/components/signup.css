@@ -57,7 +57,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  height: auto;
+  height: 84.9vh;
 }
 
 
@@ -113,8 +113,11 @@
   font-size:4rem;
   margin-bottom: 4vh;
   text-decoration: underline;
-  text-align: center;
+  text-align: left;
+  margin-left: 0%;
 }
+
+
 
 .signup-form h3{
   font-family: Montserrat;

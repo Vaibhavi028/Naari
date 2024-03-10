@@ -42,6 +42,7 @@ const Signin: React.FC = () => {
         <img src={signupImage} alt="Signup" className="signup-image" />
         <div className="signup-container">
           <div className="signup-form">
+            
             <h2>Sign In</h2>
             <form onSubmit={handleSubmit}>
               <div className="lab-inp">
