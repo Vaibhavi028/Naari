@@ -145,8 +145,8 @@ function WomanUserProfile() {
           accept="image/*,video/*"
           required
         />
-        <label htmlFor="post-caption">Caption:</label>
-        <textarea id="post-caption" name="caption"></textarea>
+        {/* <label htmlFor="post-caption">Caption:</label>
+        <textarea id="post-caption" name="caption"></textarea> */}
         <button type="submit">Post</button>
       </form>
     </div>
