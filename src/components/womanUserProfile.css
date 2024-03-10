@@ -118,7 +118,7 @@ body {
 
 .post-caption {
   margin-top: 5px;
-  color: #c0392b;
+  color: #b19a97;
 }
 
 .post-date {
@@ -140,7 +140,7 @@ body {
 }
 
 #post-form input[type="file"] {
-  padding: 5px;
+  padding-left: 300px;
 }
 
 #post-form button {
@@ -167,4 +167,3 @@ h2 {
   color: #57211c;
   margin-left: 400px;
 }
-
