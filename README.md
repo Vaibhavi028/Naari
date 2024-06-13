@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+<div align='center'>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Naari: Empowering Rural Women</h1>
+<p>We developed a centralized platform named "Naari", which aimed at promoting the economic empowerment of women in rural parts of India. The platform's primary objective was to connect rural Indian women, particularly those involved in traditional crafts and practices, with potential investors, self-help groups, and organizations. As the frontend developer, I contributed to building a user-friendly interface that caters to the specific needs of our target audience.</p>
+<p>The platform features online training modules to help women develop essential business and literacy skills, as well as a marketplace for them to showcase and sell their products. One of the platform's key highlights is the Success Stories section, which showcases inspiring narratives of women who have overcome adversity and achieved remarkable success through their dedication and hard work. This feature aims to inspire and motivate others to pursue their dreams and contribute to India's economic growth.</p>
 
-## Available Scripts
+<h4> <a href="https://github.com/vaibhavi0028/naariportal_frontend/blob/main/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/vaibhavi0028/naariportal_frontend/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/vaibhavi0028/naariportal_frontend/issues"> Request Feature </a> 
+<br><br>
+</div>
 
-In the project directory, you can run:
+## :star2: Overview
 
-### `npm start`
+Naari is a centralized platform dedicated to empowering rural women in India by facilitating economic opportunities through skill development and market access. It includes features like online training modules, a marketplace, and success stories to inspire and motivate.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :dart: Features
+- **Online Training Modules**: Provides courses to develop essential business and literacy skills.
+- **Marketplace**: Allows women to showcase and sell their products.
+- **Success Stories**: Inspiring narratives of women's achievements to motivate others.
+- **User-Friendly Interface**: Designed to meet the specific needs of rural Indian women.
+- **Responsive Design**: Ensures accessibility across various devices.
+- **Community Engagement**: Connects women with investors, self-help groups, and organizations.
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :space_invader: Technologies Used
+<ul>
+<li><a href="https://react.dev/">React.js</a></li>
+<li><a href="https://reactrouter.com/">React Router</a></li>
+<li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
+<li><a href="https://netlify.com/">Netlify</a></li>
+</ul>
+<br>
 
-### `npm run build`
+## :toolbox: Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### :gear: Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository to your local machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/vaibhavi0028/naariportal_frontend
+```
 
-### `npm run eject`
+Navigate to the project directory and install dependencies.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd naariportal_frontend
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Run the application locally.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
+<br><br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## :handshake: Contact
+Vaibhavi - @LinkedIn - vaibhavipandey2874@gmail.com
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: https://github.com/vaibhavi0028/naariportal_frontend
